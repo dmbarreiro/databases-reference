@@ -19,4 +19,4 @@ Contains examples of well-formed and xml documents with their respective DTD and
 
 ## Acknowledgments
 
-Thanks to [Stanford University](https://www.stanford.edu/) and Professor [Jennifer Widom](https://cs.stanford.edu/people/widom/)for providing the [databases course](https://lagunita.stanford.edu/courses/Home/Databases/Engineering/about) .
+Thanks to [Stanford University](https://www.stanford.edu/) and Professor [Jennifer Widom](https://cs.stanford.edu/people/widom/) for providing the [databases course](https://lagunita.stanford.edu/courses/Home/Databases/Engineering/about).
