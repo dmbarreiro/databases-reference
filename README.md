@@ -8,6 +8,9 @@ This repository contains examples, exercises solved by me and information from [
 
 - [data_models](data_models)
   - [xml](data_models/xml/)
+- [query_languages](query_languages)
+  - [relational](query_languages/relational/)
+    - [relational_algebral](query_languages/relational/relational_algebra/)
 
 ### Data models
 
