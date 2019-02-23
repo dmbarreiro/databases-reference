@@ -10,7 +10,7 @@ This repository contains examples, exercises solved by me and information from [
   - [xml](data_models/xml/)
 - [query_languages](query_languages)
   - [relational](query_languages/relational/)
-    - [relational_algebral](query_languages/relational/relational_algebra/)
+    - [relational_algebra](query_languages/relational/relational_algebra/)
 
 ### Data models
 
