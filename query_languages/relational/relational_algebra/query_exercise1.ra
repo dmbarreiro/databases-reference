@@ -1,0 +1,26 @@
+/*
+  Exercise:
+    Find all pizzas eaten by at least one female over the age of 20.
+  Database:
+    pizza.sql
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Solution
+
+\project_{pizza} (Eats \join (\project_{name}(\select_{gender='female' and age>20} Person)));

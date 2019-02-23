@@ -1,0 +1,35 @@
+/*
+  Exercise:
+    Find the age of the oldest person (or people) who eat mushroom pizza.
+    (This query is quite challenging; congratulations if you get it right.)
+  Database:
+    pizza.sql
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Solution
+
+\aggr_{max(age)} (\project_{age} (Person \join \select_{pizza='mushroom'} Eats));
+
+// or with only with standard relational algebra (\aggr_{} is not standard ra)
+
+\project_{age} (Person \join \select_{pizza='mushroom'} Eats) \diff \project_{b1}
+(\rename_{b1, b2} \select_{a1<a2}
+((\rename_{a1} \project_{age} (Person \join \select_{pizza='mushroom'} Eats))
+\cross
+(\rename_{a2} \project_{age} (Person \join \select_{pizza='mushroom'} Eats))));

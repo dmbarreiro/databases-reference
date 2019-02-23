@@ -1,0 +1,26 @@
+/*
+  Exercise:
+    Find all pizzas that are eaten only by people younger than 24, or that cost less than $10 everywhere they're served. 
+  Database:
+    pizza.sql
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Solution
+
+\project_{pizza} ((\project_{pizza} Eats \diff \project_{pizza} (Eats \join \select_{age>=24} Person)) \union ((\project_{pizza} Serves) \diff (\project_{pizza} (\select_{price>=10} Serves))));

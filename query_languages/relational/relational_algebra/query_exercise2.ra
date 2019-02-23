@@ -1,0 +1,27 @@
+/*
+  Exercise:
+    Find the names of all females who eat at least one pizza served by
+    Straw Hat. (Note: The pizza need not be eaten at Straw Hat.)
+  Database:
+    pizza.sql
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Solution
+
+\project_{name} (\select_{gender='female'} ((Person \join (\project_{name} (Eats \join (\project_{pizza} (Eats \join \select_{pizzeria='Straw Hat'} Serves)))))));

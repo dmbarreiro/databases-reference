@@ -1,0 +1,26 @@
+/*
+  Exercise:
+    Find the names of all people who eat at least one pizza served by Dominos but who do not frequent Dominos.
+  Database:
+    pizza.sql
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Solution
+
+\project_{name} (\select_{pizzeria='Dominos'} Serves \join (Eats \join ((\project_{name} \select_{pizzeria<>'Dominos'} Frequents) \diff (\project_{name} \select_{pizzeria='Dominos'} Frequents))));
