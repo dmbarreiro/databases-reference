@@ -20,6 +20,14 @@ Material about abstract ways of modeling and relate our data.
 
 Contains examples of well-formed and xml documents with their respective DTD and XSD schemas.
 
+### Query languages
+
+Examples and exercises using different database query languages.
+
+#### Relational algebra
+
+Exercises and solutions using [radb](https://users.cs.duke.edu/~junyang/radb/) Python3 package.
+
 ## Acknowledgments
 
 Thanks to [Stanford University](https://www.stanford.edu/) and Professor [Jennifer Widom](https://cs.stanford.edu/people/widom/) for providing the [databases course](https://lagunita.stanford.edu/courses/Home/Databases/Engineering/about).
