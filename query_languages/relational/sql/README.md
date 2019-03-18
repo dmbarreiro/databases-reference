@@ -45,3 +45,9 @@ The solution queries are planned to be executed using SQLite, so they conform to
 * Notes for `social.sql`:
     1. Friendship is mutual, so if (123, 456) is in the Friend table, so is (456, 123).
     2. Liking someone is not necessarily mutual, so if (123, 456) is in the Likes table, there is no guarantee that (456, 123) is also present.
+
+* Modified database: `rating.sql`, [view database](rating_schema.html).
+    1. Add the reviewer Roger Ebert to your database, with an rID of 209. [Solution](rating_modification_exercise1.sql).
+    2. Insert 5-star ratings by James Cameron for all movies in the database. Leave the review date as NULL. [Solution](rating_modification_exercise2.sql).
+    3. For all movies that have an average rating of 4 stars or higher, add 25 to the release year. (Update the existing tuples; don't insert new tuples). [Solution](rating_modification_exercise3.sql).
+    4. Remove all ratings where the movie's year is before 1970 or after 2000, and the rating is fewer than 4 stars. [Solution](rating_modification_exercise4.sql).
