@@ -11,6 +11,7 @@ This repository contains examples, exercises solved by me and information from [
 - [query_languages](query_languages)
   - [relational](query_languages/relational/)
     - [relational_algebra](query_languages/relational/relational_algebra/)
+    - [sql](query_languages/relational/sql/)
 
 ### Data models
 
@@ -27,6 +28,10 @@ Examples and exercises using different database query languages.
 #### Relational algebra
 
 Exercises and solutions using [radb](https://users.cs.duke.edu/~junyang/radb/) Python3 package.
+
+#### SQL
+
+Exercises and solutions using [sqlite](https://www.sqlite.org/).
 
 ## Acknowledgments
 
