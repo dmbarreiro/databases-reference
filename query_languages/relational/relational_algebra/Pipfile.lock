@@ -18,25 +18,23 @@
     "default": {
         "antlr4-python3-runtime": {
             "hashes": [
-                "sha256:168cdcec8fb9152e84a87ca6fd261b3d54c8f6358f42ab3b813b14a7193bb50b",
-                "sha256:4391cde90d6d9143eb59524d66e0dcb63cab3ddd4d5f0e8e30b039f5d017d2a8"
+                "sha256:168cdcec8fb9152e84a87ca6fd261b3d54c8f6358f42ab3b813b14a7193bb50b"
             ],
             "version": "==4.7.2"
         },
         "radb": {
             "hashes": [
-                "sha256:d1a4d2ce58246c4ff26feec99ccb1b8db94c5da8e2f5858ef5c02c221aa37ef7",
-                "sha256:fad18a535849c302790c32359b678cd5ac51959fa59bbb378dd14b5cef48ed47"
+                "sha256:7bfc283197824fc3aca57919d534a6594634400f7a52feeb9b6cbdc18c8a2529",
+                "sha256:975c5b4983b9a154d0ee7faf7b1fba90dd44a715f5eb91eea43956ee1eb40d33"
             ],
             "index": "pypi",
-            "version": "==3.0.2"
+            "version": "==3.0.3"
         },
         "sqlalchemy": {
             "hashes": [
-                "sha256:8027fa183f5be466030617a497b2d64e0e16c8d615e5a34bdf9fab6f66bf4723",
-                "sha256:bd17aaba6e3e0d7b2d27073a16f4cb70b428384ed5618788eb29d41dec415c7f"
+                "sha256:2f8ff566a4d3a92246d367f2e9cd6ed3edeef670dcd6dda6dfdc9efed88bcd80"
             ],
-            "version": "==1.2.18"
+            "version": "==1.3.8"
         }
     },
     "develop": {}
